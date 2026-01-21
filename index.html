@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Suivi des budgets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            margin-top: 30px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Budgets restants</h1>
+    <p>Données mises à jour automatiquement depuis Google Sheets</p>
+
+    <iframe 
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQeD1pfX4VhGfPxWGNq6JRo95J5e0enVmxe_9qY2BIxO-qIKOWJi4ONNUUAoApWaP-YMEzL2swPMNTb/pubhtml?gid=0&single=true&range=T17:T40">
+    </iframe>
+
+    <div class="footer">
+        © Suivi budgétaire – mise à jour en temps réel
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
